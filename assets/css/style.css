@@ -9,7 +9,7 @@ body{
     background-color: #d9dcd6;
 }
 
-/* Start of Header Section */
+/* Start of Navigation Section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,7 +51,7 @@ header nav{
     font-size: 16px;
 }
 
-/* End of Header Sectrion */
+/* End of Navigation Section */
 
 /* start of the Hero Section */
 
@@ -67,6 +67,7 @@ header nav{
 /* End of Hero Section */
 
 /*start of Content Section */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -86,12 +87,6 @@ header nav{
     float: right;
     margin-left: 25px;
     max-height: 200px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .search-engine-optimization {
@@ -121,33 +116,20 @@ header nav{
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content img{
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.content h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 
 /* End of Content Section */
 
@@ -164,50 +146,17 @@ header nav{
     text-align: center;
 }
 
-.benefit-lead {
+.benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 200px;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
+.benefit h3 p{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 200px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 200px;
@@ -228,7 +177,9 @@ footer h2 {
     font-size: 20px;
     text-align: left;
 }
-
+footer span{
+    color: red;
+}
 footer p {
     float: right;
     line-height: 1.5;
