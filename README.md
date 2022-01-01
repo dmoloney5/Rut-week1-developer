@@ -1,11 +1,18 @@
-# Code Refactor Starter Code
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code / THEN I find semantic HTML elements
+# h1
+Rutger's Bootcamp Week 1 Assignment
+ 
+#h2
+Refactor the source to properly configure HTML and CSS
+ 
+#changes made
+ 
+1: Fix the Navigation to have the links working
+2: Changed the size of the Hero background image to match example
+3: Organized both CSS file and HTML file with description to each section
+4: Condensed similar code into one element
+5: Add alt attribute to each section for the hearing impaired.
+6: Corrected the title section to have it properly show company's name
+ 
+Added multiple descriptive commit messages to GITHub
 
-WHEN I view the structure of the HTML elements / THEN I find that the elements follow a logical structure independent of styling and positioning
 
-WHEN I view the image elements / THEN I find accessible alt attributes
-
-WHEN I view the heading attributes / THEN they fall in sequential order
-
-WHEN I view the title element / THEN I find a concise, descriptive title
