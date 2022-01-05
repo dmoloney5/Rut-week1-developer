@@ -1,17 +1,12 @@
 Rutger's Bootcamp Week 1 Assignment
  
-#h2
-Refactor the source to properly configure HTML and CSS
+##Refactor the source to properly configure HTML and CSS
  
-#changes made
- 
-1: Fix the Navigation to have the links working<br>
-2: Changed the size of the Hero background image to match example<br>
-3: Organized both CSS file and HTML file with description to each section<br>
-4: Condensed similar code into one element<br>
-5: Add alt attribute to each section for the hearing impaired.<br>
-6: Corrected the title section to have it properly show company's name<br>
- 
-Added multiple descriptive commit messages to GITHub
+##Description of project
+In this homework assignment was to look at the website HTML and CSS files. To make the website better by changing the HTML file more symentic and also fixing the coding to make everything work properly. Also make change CSS file to be more consolidate.
 
+##GITHub Repository
+https://github.com/dmoloney5/Rut-week1-developer.git
 
+##Website pages
+https://dmoloney5.github.io/Rut-week1-developer/
